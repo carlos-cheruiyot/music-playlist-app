@@ -9,14 +9,14 @@ body {
   
   h1, h2 {
     font-family: 'Roboto', sans-serif;
-    color: #ff7f50;
+    color: #50ff70;
     text-align: center;
   }
   
   footer {
     text-align: center;
-    background-color: #333;
-    color: white;
+    background-color: #7f299ee4;
+    color: rgba(100, 70, 236, 0.9);
     padding: 10px;
   }
   
