@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Playlist App</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Playlist App</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
 </head>
 <body>
-    <header>
-        <h1>Music Playlist</h1>
-        <input type="text" id="search-bar" placeholder="Search songs by title or artist" />
-    </header>
-    <!-- adding the main section -->
-     <main>
-        <!-- adding the footer -->
-         <footer>
-            <p>Music Playlist App - Built by Carlos Cheruiyot</p>
-         </footer>
-     </main>
 
+  <header>
+    <h1>Music Playlist</h1>
+    <input type="text" id="search" placeholder="Search for songs..." class="search-bar">
+  </header>
 
-<!-- linking to javascript file -->
-    <script src="java.js"></script>
+  <main>
+    <section class="song-list-container">
+      <h2>Song List</h2>
+      <div class="song-list">
+        <!-- Songs will be listed here -->
+      </div>
+    </section>
+
+    <section class="playlist">
+      <h2>Your Playlist</h2>
+      <div id="playlist" class="playlist-container">
+        <!-- Liked songs will be added here -->
+      </div>
+      <button id="clear-playlist" class="clear-playlist-btn">Clear Playlist</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with Carlos Cheruiyot</p>
+  </footer>
+
+  <!-- Linking to the external JavaScript file -->
+  <script src="java.js"></script> 
 </body>
 </html>
